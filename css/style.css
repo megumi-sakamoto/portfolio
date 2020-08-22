@@ -252,13 +252,13 @@ td{
     padding: 10px 20px;
   }
 
-  .icon{
-    width: 90%;
-  }
+
 
   .about-top img{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 10px;
   }
 
   .about-sp-right{
