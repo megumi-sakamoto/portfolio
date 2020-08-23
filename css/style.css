@@ -1,278 +1,135 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Megumi Sakamoto</h1>
+  </header>
+  <main>
+    <div class="tab-wrap">
+       <!-- about -->
+      <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">About</label>
+      <div class="tab-content">
+        <div class="about-top flex forpc">
+          <img src="img/icon1.JPG" alt="アイコン" height="180px" width="auto">
+          <div class="about-top-right"> 
+            <h2>坂本 萌　(さかもと めぐみ)</h2>
+            <p>生年月日 / 1993年5月4日</p>
+            <p>e-mail 　/ m999999999333@gmail.com</p>
+            <p class="about-top-text">　栃木県出身。山梨県都留市立 都留文科大学にて英米文学を学び、卒業後は英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。独学でMicrosoft Accessを学び、システムを改善していく中で「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
+          </div>
+        </div>
+        <div class="about-top flex forsp">
+          <div class="about-sp">
+            <img src="img/icon1.JPG" alt="アイコン" height="180px" width="auto">
+            <div class="about-sp-right">
+              <div class="nme">
+                <h2>坂本 萌</h2>
+                <p>(さかもと めぐみ)</p>
+              </div>
+              <p>生年月日</p>
+              <p>&nbsp;1993年5月4日</p>
+              <p>e-mail</p>
+              <p>&nbsp;m999999999333@gmail.com</p>
+            </div>
+          </div>
+          <div class="about-top-right"> 
+            <p class="about-top-text">　栃木県出身。山梨県都留市立 都留文科大学にて英米文学を学び、卒業後は英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。独学でMicrosoft Accessを学び、システムを改善していく中で「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
+          </div>
+        </div>
+        <div class="about-bottom flex">
+          <div class="job-history flex-content">
+          <h3>職歴</h3>
+          <table>
+            <tr>
+              <th>2016.4-2017.9</th>
+              <td>三井倉庫ロジスティクス株式会社</td>
+            </tr>
+            <tr>
+              <th>2018.4-2019.7</th>
+              <td>はづき国際特許事務所（※現 曙国際特許事務所）</td>
+            </tr>
+            <tr>
+              <th>2019.8-</th>
+              <td>Lionbridge社のWeb広告評価に従事中<br>(パートタイム)</td>
+            </tr>
+          </table>
+          </div>
+          <div class="pr flex-content">
+          <h3>自己PR・趣味</h3>
+          <table>
+            <tr>
+              <th>自己PR</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>趣味</th>
+              <td>海外旅行が好きです。学生時代はアルバイトでお金を貯めては、長期休みにアジア・ヨーロッパ・アフリカ等15カ国程、一人旅をしていました。</td>
+            </tr>
+          </table>
+          </div>
+        </div>
+      </div>
+       <!-- works -->
+      <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">Works</label>
+      <div class="tab-content">
+        <div class="works flex-content">
+          <table>
+            <h3>カメラマンのポートフォリオ作成</h3>
+            <tr>
+              <th><h4>顧客名</h4></th>
+              <td>澤海 萌々子　様（<a href="https://www.instagram.com/moepejic/"><i class="fab fa-instagram"></i> instagram</a>）</td>
+            </tr>
+            <tr>
+              <th><h4>URL</h4></th>
+              <td></td>
+            </tr>
+            <tr>
+              <th><h4>制作期間</h4></th>
+              <td></td>
+            </tr>
+            <tr>
+              <th><h4>使用言語</h4></th>
+              <td>HTML, CSS, jQuery</td>
+            </tr>
+            <tr>
+              <th><h4>顧客の意向と課題</h4></th>
+              <td></td>
+            </tr>
+            <tr>
+              <th><h4>課題への対応</h4></th>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- skills -->
+      <input id="TAB-03" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-03">Skills</label>
+      <div class="tab-content">
+        <div class="skills flex clearfix">
+          <div class="Web flex-content">
+          <h3>Web系</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
+          </div>
+          <div class="officework flex-content">
+          <h3>事務系</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
+          </div>
+          <div class="english flex-content">
+          <h3>英語</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
+          </div>
+        </div>
+  </div>
+  </main>
 
-body{
-  box-sizing: border-box;
-  z-index: 0;
-  background-color: #fff;
-  height: 100%;
-  font-family: 'Lora', serif;
-  background: black;
-  color: #333;
-}
-
-main{
-  height: 600px;
-}
-
-h1{
-  font-size: 45px;
-  color: #fff;
-  text-align: center;
-  padding-top: 50px;
-}
-
-h2{
-  font-size: 20px;
-}
-
-h3{
-  font-size: 18px;
-}
-
-h4{
-  font-size: 16px;
-  font-weight: normal;
-}
-
-a{
-  color: #333;
-}
-
-
-.tab-wrap {
-  height: 100%;
-  min-height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  /* margin: 50px 100px; */
-  width: 90%;
-  margin: 50px auto;
-}
-
-.tab-label {
-  max-width: 150px;
-  color: White;
-  font-weight: bold;
-  white-space: nowrap;
-  text-align: center;
-  border:1px solid Gray;
-  /* margin: 5px -1px 5px 1px; */
-  padding: 60px .5em;
-  order: -1;
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
-  float:left;
-  font-size: 16px;
-  margin: 12px 0;
-}
-
-.tab-label:hover{
-  box-shadow: 0 0 5px #fff;
-}
-
-.tab-content {
-  display:none;
-  background: #fff;
-  margin-left: 50px;
-
-}
-/* アクティブなタブ */
-.tab-switch:checked+.tab-label {
-  color:#111;
-  background: White;
-  /* border-right-color: White; */
-  /* box-shadow: 0 0 5px #111; */
-  opacity: 1;
-  box-shadow: none;
-}
-.tab-switch:checked+.tab-label+.tab-content {
-  /* width: calc(100% - 150px); - ボタン幅 */
-  width: calc(100% - 250px); /* - ボタン幅 */
-  /* height: 100%; */
-  padding: 15px 20px;
-  /* border-left: 1px solid Gray; */
-  display:block;
-}
-/* ラジオボタン非表示 */
-.tab-switch {
-  display: none;
-}
-
-.about-top{
-  margin-bottom: 15px;
-}
-
-.about-top h2{
-  margin: 20px 0 5px 0;
-}
-
-.tab-content p{
-  line-height: 25px;
-  font-size: 15px;
-}
-
-.about-top-text{
-  margin-top: 10px;
-}
-
-
-img{
- margin: 10px 20px 15px 0;
-}
-
-.clearfix{
-  clear: both;
-}
-
-.flex{
-  display: flex;
-  padding: 10px;
-}
-
-.flex-content{
-  flex: 1;
-  padding: 0 10px;
-}
-
-.flex-content h3{
-  margin-left: -5px;
-}
-
-table{
-  width: 100%;
-}
-/* tr{
-  min-height: 40px;
-  height: 100%;
-} */
-
-th{
-  text-align: left;
-  border-right: 1px dotted rgb(117, 116, 116);
-  border-bottom: 1px dotted rgb(117, 116, 116);
-  padding-right: 5px;
-  padding: 10px 5px 10px 0;
-}
-
-td{
-  border-bottom: 1px dotted rgb(117, 116, 116);
-  padding-left: 5px;
-}
-
-.works > table{
-  width: 90%;
-  margin: 30px auto 0 auto;
-}
-
-.forsp{
-  display: none;
-}
-
-@media screen and (max-width:960px){
-  main{
-    height: unset;
-  }
-
-  .tab-wrap {
-    flex-direction: unset;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .tab-label{
-    padding: 20px 40px;
-  }
-
-  .tab-switch:checked+.tab-label+.tab-content {
-    margin-left: 0;
-    width: 100%;
-    margin: 20px 40px;
-  }
-
-  .flex{
-    display: block;
-  }
-
-  .about-top{
-    margin-bottom: 0;
-  }
-
-  .about-sp{
-    display: flex;
-  }
-
-  .about-sp-right{
-    padding: 0 20px;
-  }
-
-  .flex-content{
-    padding: 10px 10px 20px 10px;
-    margin: 0 auto;
-  }
-
-  .forpc{
-    display: none;
-  }
-  
-}
-
-@media screen and (max-width:560px){
-
-  h1{
-    font-size: 30px;
-    padding: 32px 0 20px 0;
-  }
-
-  h2{
-    font-size: 18px;
-  }
-
-  h3{
-    font-size: 16px;
-  }
-
-  .about-sp-right p{
-    font-size: 13px;
-  }
-
-  .tab-wrap{
-    margin: 0 auto;
-  }
-
-  .tab-switch:checked+.tab-label+.tab-content {
-    margin: 10px;
-  }
-
-  .tab-label{
-    padding: 10px 20px;
-  }
-
-
-
-  .about-top img{
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
-    margin: 10px;
-  }
-
-  .about-sp-right{
-    padding: 0 0 0 10px;
-  }
-
-  .about-top h2 {
-    margin: 0;
-  }
-
-  .about-sp-right p{
-    line-height: 20px;
-  }
-  .name{
-    margin: 10px 0;
-  }
-}
+  <footer></footer>
+</body>
+</html>
