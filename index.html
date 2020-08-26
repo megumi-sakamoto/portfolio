@@ -90,12 +90,6 @@
           <table>
             <h3>カメラマンのポートフォリオ作成</h3>
             <div class="works-images">
-              <!-- <div class="grid">
-                <a href="img/mywork_1_strip.png" class="strip" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル"></a>
-              </div>  
-              <div class="grid">
-                <a href="img/mywork_2_strip.png" class="strip" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ"></a>
-              </div> -->
               <a href="img/mywork_1_strip.png" class="strip forpc" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル"></a>
               <a href="img/mywork_2_strip.png" class="strip forpc" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ"></a>
               
@@ -115,19 +109,37 @@
             </tr>
             <tr>
               <th><p>制作期間</p></th>
-              <td><p>約２週間&nbsp;(総作業時間:54.5時間)</p></td>
+              <td><p>約２週間&nbsp;(総作業時間:約85時間)</p></td>
             </tr>
             <tr>
               <th><p>使用言語・ソフト</p></th>
               <td><p>HTML, CSS, jQuery・Photoshop</p></td>
             </tr>
             <tr>
-              <th><p>顧客の意向と課題</p></th>
-              <td><p></p></td>
+              <th><p>顧客の意向</p></th>
+              <td>
+                <p>(1)トップページは、全画面の背景画像を使用し、3枚の画像が３秒毎に切り替わる形にしたい。その際PC版とスマホ版で画像を変えたい。</p>
+                <p>(2)カテゴリ別に写真を分けて表示したい。</p>
+                <p>(3)(2)で カテゴリ分けした写真は、1枚ずつ拡大して表示し、横スライド式で切り替えられるようにしたい。</p>
+              </td>
+            </tr>
+            <tr>
+              <th><p>課題</p></th>
+              <td><p>上記(1)〜(3)には、元々顧客が利用していたinstagramには出来ない機能を実現した写真ギャラリーを作りたいという思いがあると感じました。更に、顧客本人が写真を確認しやすいだけでなく、見る側にも、より沢山の写真を見てもらえる仕組みを作りたいと考えました。具体的には、下記の通りです。</p>
+              <p>(1)スムーズにトップ画像が切り替わり、視覚的に邪魔にならないこと。</p>
+              <p>(2)カテゴリ分けした上で、カテゴリ間での移動が簡単であること。</p>
+              <p>(3)カテゴリ別に写真をグループ化し、選んだ写真から順に、スライド式で全ての写真が閲覧できること。</p>
+            </td>
             </tr>
             <tr>
               <th><p>課題への対応</p></th>
-              <td><p></p></td>
+              <td>
+                <p>(1)CSSのアニメーションで実装しました。各画像毎に３秒で切り替わる表示はやや速く、見る側の集中を削ぐと考え、画像の切り替わり時にフェードを含めて約5秒で切り替わる表示としました。（実際のトップページは<a href="https://momoko-somi.github.io/portfolio/" target="_blank">こちら</a>）
+                </p>
+                <p>(2)各カテゴリの移動をタブ形式にし、ページを切り替わらずに表示させることで、スムーズな移動を目指しました。（参考画像は<a href="img/mywork_3_example.jpg" class="strip" >こちら</a>）
+                </p>
+                <p>(3)プラグイン"strip"で実装することで、課題を解決した。その際、初期設定では矢印ボタンや×ボタンが画像に重なってしまうため、画像の表示に影響が無いよう工夫した。</p>（参考画像はこちら<a href="img/mywork_4_example.jpg" class="strip">before</a>/<a href="img/mywork_5_example.jpg" class="strip">after</a>）
+              </td>
             </tr>
           </table>
         </div>
@@ -140,14 +152,6 @@
             <h3>Webデザイン系</h3>
             <div class="flex">
               <div class="skills-text">
-                <!-- <ul>
-                  <li>HTML / CSS<p>レスポンシブを含め、基本的なコーディングは問題ありません。使用エディタはVisual Studio Codeです。</p>
-                  </li>
-                  <li>JavaScript<p>まだまだ勉強中ですが、jQueryを用いてWebサイトを作成した経験はあります。</p>
-                  </li>
-                  <li>Photoshop<p>使用歴３ヶ月程です。</p>
-                  </li>
-                </ul> -->
                 <table>
                   <tr>
                     <th><p>HTML,CSS</p><p>★★★☆☆</p></th>
@@ -177,19 +181,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="officework flex-content">
-            <h3>事務系</h3>
-            <div class="flex">
-              <div class="skills-text">
-                <ul>
-                  <li>Word<p>表や図形が挿入された文章の作成など、基本操作が可能です。</p></li>
-                  <li>Excel<p>関数の使用やグラフ作成、集計、分析などが可能です。</p></li>
-                  <li>Access<p>目的に応じたフォームやクエリ、レポートの作成が可能です。</p></li>
-                </ul>
-              </div>
-              <div class="graph"><img src="img/graph_officework.png" class="graph-img" alt="事務作業に関する円グラフ"></div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
