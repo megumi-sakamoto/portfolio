@@ -361,13 +361,12 @@ td{
     padding: 5px;
   }
 
-  /* .works th {
-    width: unset;
-} */
+  .works th {
+    width: 10%;
+ }
 
   .vertical{
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+    padding-left: 5px;
   }
 }
