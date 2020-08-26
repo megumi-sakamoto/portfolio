@@ -361,9 +361,9 @@ td{
     padding: 5px;
   }
 
-  .works th {
+  /* .works th {
     width: unset;
-}
+} */
 
   .vertical{
     -webkit-writing-mode: vertical-rl;
