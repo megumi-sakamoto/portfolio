@@ -360,13 +360,4 @@ td{
     margin: 0 auto;
     padding: 5px;
   }
-
-  .works th {
-    width: 15%;
-    height: 100%;
- }
-
-  .vertical{
-    writing-mode: vertical-lr;
-  }
 }
