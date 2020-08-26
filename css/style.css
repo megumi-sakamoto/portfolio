@@ -350,7 +350,7 @@ td{
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    padding: 10px;
   }
 
   .about-sp-right{
