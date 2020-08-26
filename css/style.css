@@ -362,11 +362,10 @@ td{
   }
 
   .works th {
-    width: 10%;
+    width: 15%;
  }
 
   .vertical{
-    writing-mode: vertical-rl;
-    padding-left: 5px;
+    writing-mode: vertical-lr;
   }
 }
