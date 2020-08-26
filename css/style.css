@@ -187,7 +187,6 @@ th{
   border-bottom: 1px dotted rgb(117, 116, 116);
   padding: 10px 5px 10px 5px;
   font-weight: normal;
-  /* max-width: 60px; */
 }
 
 td{
@@ -199,20 +198,12 @@ td{
   margin: 30px auto 0 auto;
 }
 
+.works th{
+  width: 15%;
+}
+
 .forsp{
   display: none;
-}
-
-.graph{
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 5px;
-}
-
-.graph-img{
-  width: 100%;
-  height: auto;
 }
 
 .skills-text ul{
@@ -268,13 +259,6 @@ td{
     margin-bottom: 0;
   }
 
-
-  /* 画面いっぱいに悪さしてる？ 
-  .about-sp-right{
-    padding: 0 20px;
-  } */
-
-
   .flex-content{
     padding: 10px 10px 20px 10px;
     margin: 0 auto;
@@ -282,10 +266,6 @@ td{
 
   .skills .flex-content p{
     margin-left:0;
-  }
-
-  .graph{
-    padding: 20px 0;
   }
 
   .forpc{
@@ -381,11 +361,4 @@ td{
     margin: 0 auto;
     padding: 5px;
   }
-
-  .graph{
-    width: 300px;
-    margin: 0 auto;
-  }
-
-
 }
