@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- strip -->
+  <script type="text/javascript" src="js/strip.pkgd.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/strip.css"/>
 </head>
 <body>
   <header>
@@ -21,9 +25,11 @@
           <img src="img/icon1.jpg" alt="アイコン" height="180px" width="auto">
           <div class="about-top-right"> 
             <h2>坂本 萌　(さかもと めぐみ)</h2>
-            <p>生年月日 / 1993年5月4日</p>
-            <p>e-mail 　/ m999999999333@gmail.com</p>
-            <p class="about-top-text">　栃木県出身。山梨県都留市立 都留文科大学にて英米文学を学び、卒業後は英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。独学でMicrosoft Accessを学び、システムを改善していく中で「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
+            <ul>
+              <li>生年月日&nbsp;&nbsp;1993年5月4日</li>
+              <li>メールアドレス&nbsp;&nbsp;m999999999333@gmail.com</li>
+            </ul>
+            <p class="about-top-text">栃木県出身。大学では英米文学を学び、卒業後、英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。<br>業務改善のため独学でMicrosoft Accessを学び、システムを作成するうちに「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
           </div>
         </div>
         <div class="about-top flex forsp">
@@ -34,27 +40,33 @@
                 <h2>坂本 萌</h2>
                 <p>(さかもと めぐみ)</p>
               </div>
-              <p>生年月日</p>
-              <p>&nbsp;1993年5月4日</p>
-              <p>e-mail</p>
-              <p>&nbsp;m999999999333@gmail.com</p>
+              <ul>
+                <li>生年月日
+                  <p>&nbsp;1993年5月4日</p></li>
+                <li>メールアドレス
+                  <p>&nbsp;m999999999333@gmail.com</p></li>
+                </ul>
             </div>
           </div>
           <div class="about-top-right"> 
-            <p class="about-top-text">　栃木県出身。山梨県都留市立 都留文科大学にて英米文学を学び、卒業後は英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。独学でMicrosoft Accessを学び、システムを改善していく中で「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
+            <p class="about-top-text">栃木県出身。大学では英米文学を学び、卒業後、英語を使った仕事をしたいと考え、物流業と外国特許業に従事しました。<br>業務改善のため独学でMicrosoft Accessを学び、システムを作成するうちに「コードを書いて何かをつくりたい」と考えるようになり、Web系の勉強を始めて今に至ります。</p>
           </div>
         </div>
         <div class="about-bottom flex">
           <div class="job-history flex-content">
-          <h3>職歴</h3>
+          <h3>学歴・職歴</h3>
           <table>
+            <tr>
+              <th>2012.4-2016.3</th>
+              <td>山梨県都留市立都留文科大学 文学部英文学科</td>
+            </tr>
             <tr>
               <th>2016.4-2017.9</th>
               <td>三井倉庫ロジスティクス株式会社</td>
             </tr>
             <tr>
               <th>2018.4-2019.7</th>
-              <td>はづき国際特許事務所（※現 曙国際特許事務所）</td>
+              <td>はづき国際特許事務所<br>※現 曙国際特許事務所</td>
             </tr>
             <tr>
               <th>2019.8-</th>
@@ -67,11 +79,22 @@
           <table>
             <tr>
               <th>自己PR</th>
-              <td></td>
+              <td>
+                <ul>
+                  <li>業務効率化×正確な作業を目指します
+                    <p>これまでの職種では、生産性向上のための業務改善を積極的に行うと同時に、作業の正確性にも努めてきました。倉庫の管理や特許申請において、ミスをしないということが重要であるためです。その経験を活かし、簡潔で正確な作業を目指します。</p>
+                  </li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <th>趣味</th>
-              <td>海外旅行が好きです。学生時代はアルバイトでお金を貯めては、長期休みにアジア・ヨーロッパ・アフリカ等15カ国程、一人旅をしていました。</td>
+              <td>
+                <ul>
+                  <li>映画鑑賞</li>
+                  <li>海外旅行</li>
+                </ul>
+              </td>
             </tr>
           </table>
           </div>
@@ -79,25 +102,42 @@
       </div>
        <!-- works -->
       <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">Works</label>
-      <div class="tab-content">
+      <div class="tab-content works flex-content">
         <div class="works flex-content">
           <table>
             <h3>カメラマンのポートフォリオ作成</h3>
+            <p>URL:&nbsp;<a href="https://momoko-somi.github.io/portfolio/">https://momoko-somi.github.io/portfolio/</a></p>
+            <div class="works-images">
+              <!-- <div class="grid">
+                <a href="img/mywork_1_strip.png" class="strip" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル"></a>
+              </div>  
+              <div class="grid">
+                <a href="img/mywork_2_strip.png" class="strip" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ"></a>
+              </div> -->
+              <a href="img/mywork_1_strip.png" class="strip forpc" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル"></a>
+              <a href="img/mywork_2_strip.png" class="strip forpc" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ"></a>
+              
+              <a href="img/mywork_1_strip.png" class="strip mid" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル" height="250px"></a>
+              <a href="img/mywork_2_strip.png" class="strip mid" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ" height="250px"></a>
+              
+              <a href="img/mywork_1_strip.png" class="strip formobile" data-strip-group="mygroup"><img src="img/mywork_1.png" alt="メインビジュアル" height="200px"></a>
+              <a href="img/mywork_2_strip.png" class="strip formobile" data-strip-group="mygroup"><img src="img/mywork_2.png" alt="下層ページ" height="200px"></a>
+            </div>
             <tr>
               <th><h4>顧客名</h4></th>
               <td>澤海 萌々子　様（<a href="https://www.instagram.com/moepejic/"><i class="fab fa-instagram"></i> instagram</a>）</td>
             </tr>
             <tr>
               <th><h4>URL</h4></th>
-              <td></td>
+              <td><p><a href="https://momoko-somi.github.io/portfolio/">https://momoko-somi.github.io/portfolio/</a></p></td>
             </tr>
             <tr>
               <th><h4>制作期間</h4></th>
-              <td></td>
+              <td>約２週間&nbsp;(総作業時間:54.5時間)</td>
             </tr>
             <tr>
-              <th><h4>使用言語</h4></th>
-              <td>HTML, CSS, jQuery</td>
+              <th><h4>使用言語・ソフト</h4></th>
+              <td>HTML, CSS, jQuery・Photoshop</td>
             </tr>
             <tr>
               <th><h4>顧客の意向と課題</h4></th>
@@ -115,19 +155,64 @@
       <div class="tab-content">
         <div class="skills flex clearfix">
           <div class="Web flex-content">
-          <h3>Web系</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
-          </div>
-          <div class="officework flex-content">
-          <h3>事務系</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
+            <h3>Webデザイン系</h3>
+            <div class="flex">
+              <div class="skills-text">
+                <!-- <ul>
+                  <li>HTML / CSS<p>レスポンシブを含め、基本的なコーディングは問題ありません。使用エディタはVisual Studio Codeです。</p>
+                  </li>
+                  <li>JavaScript<p>まだまだ勉強中ですが、jQueryを用いてWebサイトを作成した経験はあります。</p>
+                  </li>
+                  <li>Photoshop<p>使用歴３ヶ月程です。</p>
+                  </li>
+                </ul> -->
+                <table>
+                  <tr>
+                    <th>HTML,CSS</th>
+                    <td><p>レスポンシブを含め、基本的なコーディングは問題ありません。使用エディタはVisual Studio Codeです。</p></td>
+                  </tr>
+                  <tr>
+                    <th>JavaScript</th>
+                    <td><p>まだまだ勉強中ですが、jQueryを用いてWebサイトを作成した経験があります。</p></td>
+                  </tr>
+                  <tr>
+                    <th>Photoshop</th>
+                    <td>使用歴3ヶ月ほどですが、Webサイトに掲載する画像の加工経験があります。</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="graph"><img src="img/graph_webdesign.png" class="graph-img" alt="Webデザインに関する円グラフ"></div>
+            </div>
           </div>
           <div class="english flex-content">
-          <h3>英語</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus non iste aspernatur blanditiis veritatis porro. Quas eum iure ad voluptatum magnam sequi nisi illo, reiciendis quos, ducimus impedit ratione!</p>
+            <h3>英語</h3>
+            <div class="flex">              
+              <div class="skills-text">
+                <ul>
+                  <li>TOEIC公開テスト 880点</li>
+                  <li>実用英語技能検定 準1級</li>
+                </ul>
+                <p>2018年4月より、現在まで英語を使って仕事をしています。特許事務所では、外国の特許書類を読んだり、海外との英文メールのやりとりが主な業務でした。<p>
+              </div>
+              <div class="graph"><img src="img/graph_eng.png" class="graph-img" alt="英語に関する円グラフ"></div>
+            </div>
           </div>
+          <!-- <div class="officework flex-content">
+            <h3>事務系</h3>
+            <div class="flex">
+              <div class="skills-text">
+                <ul>
+                  <li>Word<p>表や図形が挿入された文章の作成など、基本操作が可能です。</p></li>
+                  <li>Excel<p>関数の使用やグラフ作成、集計、分析などが可能です。</p></li>
+                  <li>Access<p>目的に応じたフォームやクエリ、レポートの作成が可能です。</p></li>
+                </ul>
+              </div>
+              <div class="graph"><img src="img/graph_officework.png" class="graph-img" alt="事務作業に関する円グラフ"></div>
+            </div>
+          </div> -->
         </div>
-  </div>
+      </div>
+    </div>
   </main>
 
   <footer></footer>
