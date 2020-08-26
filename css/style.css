@@ -47,6 +47,7 @@ a:hover{
 
 li{
   list-style: none;
+  font-size: 14px;
 }
 
 li::before{
@@ -85,7 +86,6 @@ li p{
   cursor: pointer;
   float:left;
   font-size: 16px;
-  /* margin: 5px 0; */
 }
 
 .tab-label:hover{
@@ -128,6 +128,10 @@ li p{
   margin: 20px 0 5px 0;
 }
 
+.about-top ul{
+  margin-left: 5  px;
+}
+
 .tab-content p{
   line-height: 25px;
   font-size: 15px;
@@ -156,12 +160,11 @@ img{
   flex-direction: column;
 }
 
-/* .skills .flex-content p{
-  margin-left: 10px;
-} */
+.skills-text li{
+  font-size: 16px;
+}
 
 .flex-content{
-  flex: 1;
   padding: 10px 10px;
 }
 
@@ -204,10 +207,6 @@ td{
 
 .forsp{
   display: none;
-}
-
-.skills-text ul{
-  margin-bottom: 10px;
 }
 
 .works-images{
@@ -360,5 +359,14 @@ td{
   .works > table{
     margin: 0 auto;
     padding: 5px;
+  }
+
+  .works th {
+    width: unset;
+}
+
+  .vertical{
+    writing-mode: vertical-rl;
+    padding-left: 5px;
   }
 }
