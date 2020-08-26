@@ -246,7 +246,7 @@ td{
   .tab-wrap {
     flex-direction: unset;
     justify-content: center;
-    /* width: 100%; */
+    width: 100%;
   }
 
   .tab-label{
