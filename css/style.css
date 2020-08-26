@@ -366,7 +366,8 @@ td{
 }
 
   .vertical{
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    padding-left: 5px;
   }
 }
